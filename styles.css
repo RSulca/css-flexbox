@@ -1,0 +1,48 @@
+body {
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#layout {
+    border: 3px solid black;
+    padding: 5px;
+    display: flex;
+    /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+
+}
+
+.caja {
+    padding: 15px;
+    margin: 3px;
+    border: 3px solid black;   
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+p:last-child {
+    font-weight: normal;
+}
